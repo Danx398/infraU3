@@ -42,7 +42,7 @@
                 <a href="./metodos/eliminarDatos.php?id=<?=$key['id']?>" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></a>
             </td>
             <td>
-                <a href="./views/actualizar.php?id=<?=$key['id']?>" class="btn btn-outline-warning"><i class="fa-solid fa-trash"></i></a>
+                <a href="./views/actualizar.php?id=<?=$key['id']?>" class="btn btn-outline-warning"><i class="fa-solid fa-user"></i></a>
             </td>
         </tr>
         <?php
