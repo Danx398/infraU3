@@ -26,6 +26,7 @@
             <th>Apellido</th>
             <th>Usuario</th>
             <th>Eliminar</th>
+            <th>Actualizar</th>
         </tr>
         <?php
             $obj = new mostrar();
@@ -39,6 +40,9 @@
             <td><?=$key['usuario'] ?></td>
             <td>
                 <a href="./metodos/eliminarDatos.php?id=<?=$key['id']?>" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></a>
+            </td>
+            <td>
+                <a href="./views/actualizar.php?id=<?=$key['id']?>" class="btn btn-outline-warning"><i class="fa-solid fa-trash"></i></a>
             </td>
         </tr>
         <?php
